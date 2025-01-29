@@ -7,7 +7,7 @@ const Research = () => {
     <div className="mt-10">
       {/* Hero Section */}
       <div 
-  className="bg-[url('/12.jpg')] bg-cover bg-center text-white py-16"
+  className="bg-[url('/5.jpg')] bg-cover bg-center text-white py-16"
 >
   <div className="bg-black bg-opacity-50 py-16">
     <div className="max-w-7xl mx-auto px-4 text-center">
@@ -141,7 +141,7 @@ const Research = () => {
       </div>
 
       {/* Call-to-Action */}
-      <div className="bg-[url('/14.jpg')] bg-cover bg-center text-white bg-black opacity-1/2 py-16">
+      <div className="bg-[url('/17.jpg')] bg-cover bg-center text-white bg-black opacity-1/2 py-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">Stay Updated</h2>
           <p className="mb-8 bg-black opacity-70">Subscribe to our newsletter for the latest reviews and updates.</p>
