@@ -11,9 +11,9 @@ const Carsales = () => {
     { id: 3, name: "Nissan Leaf", image: "/3.jpg", type: "available" },
     { id: 4, name: "Tesla Model Y", image: "/4.jpg", type: "available" },
     { id: 5, name: "Ford Mustang Mach-E", image: "/5.jpg", type: "available" },
-    { id: 6, name: "Ford F-150 Lightning", image: "/6.jpg", type: "electric" },
-    { id: 7, name: "BMW i3", image: "/7.jpg", type: "electric" },
-    { id: 8, name: "Volkswagen ID.4", image: "/8.jpg", type: "electric" },
+    { id: 6, name: "AMG F-150 Lightning", image: "/6.jpg", type: "electric" },
+    { id: 7, name: "Range Rover i3", image: "/7.jpg", type: "electric" },
+    { id: 8, name: "Mercedes Benz ID.4", image: "/8.jpg", type: "electric" },
   ];
 
   // Filtered car data

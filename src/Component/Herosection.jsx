@@ -68,16 +68,16 @@ const Herosection = () => {
               <label className="text-sm text-gray-600 mb-1">Make</label>
               <select className="border border-gray-300 p-2 rounded">
                 <option>All makes</option>
-                <option>Toyota</option>
-                <option>Honda</option>
+                <option>ferrari</option>
+                <option>mercedes</option>
               </select>
             </div>
             <div className="flex flex-col w-full sm:w-[48%] md:w-1/5">
               <label className="text-sm text-gray-600 mb-1">Model</label>
-              <select className="border border-gray-300 p-2 rounded">
-                <option>All models</option>
-                <option>Corolla</option>
-                <option>Civic</option>
+              <select className="border bg-gray-800 border-gray-300 p-2 rounded">
+                <option className="text-blue-500">All models</option>
+                <option>2015-2020</option>
+                <option>2021-2025</option>
               </select>
             </div>
             <div className="flex flex-col w-full sm:w-[48%] md:w-1/5">
