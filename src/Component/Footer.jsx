@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 border-t pt-4 text-center text-gray-500 text-sm">
-          © 2025 YourCompanyName. All rights reserved. | Terms & Conditions | Privacy Policy
+          © 2025 EmmAuto. All rights reserved. | Terms & Conditions | Privacy Policy
         </div>
       </div>
     </footer>

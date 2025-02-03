@@ -15,11 +15,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed bg-white shadow-lg w-full z-10 top-0">
+    <div className="fixed bg-white shadow-lg w-full z-10 top-0 overflow-hidden ">
       <div className="flex items-center justify-between p-4 max-w-7xl mx-auto">
         {/* Logo */}
         <Link to="/" className="text-xl font-bold hover:text-blue-500 transition duration-200 ease-in-out">
-          UrbanTorque
+          EmmAuto
         </Link>
 
         {/* Search Bar */}
