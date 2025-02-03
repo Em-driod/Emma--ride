@@ -30,33 +30,40 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="  mx-10 bg-gray-900 text-white  rounded-lg shadow-lg overflow-hidden">
-      <h2 className="text-xl font-bold text-center mb-3">Emmanuel AI </h2>
-      
+    <div className="w-full max-w-2xl mx-auto p-4 bg-gray-900 text-white rounded-lg shadow-lg border border-gray-700">
+      <h2 className="text-xl font-bold text-center mb-3">Emmanuel AI</h2>
+
       {/* Chat Display */}
-      <div className="h-72 overflow-y-auto bg-gray-800 p-3 rounded-lg border border-gray-700">
+      <div className="h-80 overflow-y-auto bg-gray-800 p-3 rounded-lg border border-gray-700 space-y-2">
         {messages.map((msg, index) => (
-          <div key={index} className={`mb-2 ${msg.sender === "user" ? "text-right" : "text-left"}`}>
-            <p className={`inline-block px-3 py-2 rounded-lg ${msg.sender === "user" ? "bg-blue-600" : "bg-gray-700"}`}>
+          <div
+            key={index}
+            className={`flex ${msg.sender === "user" ? "justify-end" : "justify-start"}`}
+          >
+            <p
+              className={`px-3 py-2 rounded-lg max-w-[80%] ${
+                msg.sender === "user" ? "bg-blue-600 text-right" : "bg-gray-700"
+              }`}
+            >
               {msg.text}
             </p>
           </div>
         ))}
-        {loading && <p className="text-gray-400">oga wait i dey think...</p>}
+        {loading && <p className="text-gray-400 text-center">Oga wait, I dey think...</p>}
       </div>
 
       {/* Input Field */}
-      <div className="mt-3 flex  ">
+      <div className="mt-3 flex">
         <input
           type="text"
-          className="flex p-2 bg-gray-700 text-white border border-gray-600 rounded-l outline-none"
+          className="flex-grow px-3 py-2 bg-gray-700 text-white border border-gray-600 rounded-l outline-none"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Dont be shy , ask ..."
+          placeholder="Don't be shy, ask..."
         />
         <button
           onClick={sendMessage}
-          className=" bg-blue-500 hover:bg-blue-600 text-white rounded-r"
+          className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-r"
         >
           Send
         </button>
