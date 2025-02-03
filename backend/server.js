@@ -34,7 +34,7 @@ const chatSchema = new mongoose.Schema({
 });
 const Chat = mongoose.model("Chat", chatSchema);
 
-// Function to call Gemini API
+
 async function fetchGeminiResponse(message) {
   try {
     const response = await axios.post(
@@ -67,5 +67,9 @@ app.post("/chat", async (req, res) => {
   }
 });
 
-// Start Server
+       app.get("/",
+        async function (params) {
+          res.send("Hello from  server")
+        }
+       )
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
