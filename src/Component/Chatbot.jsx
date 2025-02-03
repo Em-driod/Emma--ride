@@ -30,8 +30,8 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-gray-900 text-white p-4 rounded-lg shadow-lg">
-      <h2 className="text-xl font-bold text-center mb-3">UrbanTorque AI Assistant</h2>
+    <div className="  mx-14 bg-gray-900 text-white p-4 rounded-lg shadow-lg">
+      <h2 className="text-xl font-bold text-center mb-3">Emmanuel AI Assistant</h2>
       
       {/* Chat Display */}
       <div className="h-72 overflow-y-auto bg-gray-800 p-3 rounded-lg border border-gray-700">
@@ -42,7 +42,7 @@ const Chatbot = () => {
             </p>
           </div>
         ))}
-        {loading && <p className="text-gray-400">Bot is typing...</p>}
+        {loading && <p className="text-gray-400">oga wait i dey think...</p>}
       </div>
 
       {/* Input Field */}
@@ -52,7 +52,7 @@ const Chatbot = () => {
           className="flex-grow p-2 bg-gray-700 text-white border border-gray-600 rounded-l outline-none"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask me anything..."
+          placeholder="Dont be shy , ask ..."
         />
         <button
           onClick={sendMessage}
