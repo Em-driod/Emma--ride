@@ -46,7 +46,7 @@ const Chatbot = () => {
       </div>
 
       {/* Input Field */}
-      <div className="mt-3 flex ">
+      <div className="mt-3 flex  ">
         <input
           type="text"
           className="flex p-2 bg-gray-700 text-white border border-gray-600 rounded-l outline-none"
@@ -56,7 +56,7 @@ const Chatbot = () => {
         />
         <button
           onClick={sendMessage}
-          className="px-4 bg-blue-500 hover:bg-blue-600 text-white rounded-r"
+          className=" bg-blue-500 hover:bg-blue-600 text-white rounded-r"
         >
           Send
         </button>
