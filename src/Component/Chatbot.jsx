@@ -46,10 +46,10 @@ const Chatbot = () => {
       </div>
 
       {/* Input Field */}
-      <div className="mt-3 flex mx-auto">
+      <div className="mt-3 flex ">
         <input
           type="text"
-          className="flex-grow p-2 bg-gray-700 text-white border border-gray-600 rounded-l outline-none"
+          className="flex p-2 bg-gray-700 text-white border border-gray-600 rounded-l outline-none"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Dont be shy , ask ..."
