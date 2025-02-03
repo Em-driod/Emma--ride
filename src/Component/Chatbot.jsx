@@ -46,7 +46,7 @@ const Chatbot = () => {
       </div>
 
       {/* Input Field */}
-      <div className="mt-3 flex">
+      <div className="mt-3 flex mx-auto">
         <input
           type="text"
           className="flex-grow p-2 bg-gray-700 text-white border border-gray-600 rounded-l outline-none"
