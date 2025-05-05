@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI ='mongodb+srv://sheenleen2:1805ema01@cluster0.ulqz4.mongodb.net/'
+const MONGO_URI = 'mongodb+srv://sheenleen2:1805ema01@cluster0.ulqz4.mongodb.net/'
 const GEMINI_API_KEY = 'AIzaSyBUHKun0ofNXC4c57lWM7VwVA5627BdCsI';
 
 console.log("MONGO_URI:", MONGO_URI ? "✅ Loaded" : "❌ Not Found");
@@ -67,9 +67,9 @@ app.post("/chat", async (req, res) => {
   }
 });
 
-       app.get("/",
-        async function (params) {
-          res.send("Hello from  server")
-        }
-       )
+app.get("/",
+  (req, res)=>{
+    res.send("Server running here");
+  }
+)
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
