@@ -31,7 +31,7 @@ const Chatbot = () => {
 
   return (
     <div className="w-full max-w-2xl mx-auto p-4 bg-gray-900 text-white rounded-lg shadow-lg border border-gray-700">
-      <h2 className="text-xl font-bold text-center mb-3">Emmanuel AI</h2>
+      <h2 className="text-xl font-bold text-center mb-3">nuel AI</h2>
 
       {/* Chat Display */}
       <div className="h-80 overflow-y-auto bg-gray-800 p-3 rounded-lg border border-gray-700 space-y-2">
